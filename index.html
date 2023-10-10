@@ -11,44 +11,46 @@
                 <div id="header-name">Darren Brain</div>
                 <ul class="nav-list">
                     <li class="nav-link">
-                        <a href="#about-me">About</a>
+                        <a href="#about-container">About</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#projects">Projects</a>
+                        <a href="#project-container">Projects</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#contact-info">Contact</a>
+                        <a href="#contact-container">Contact</a>
                     </li>
                 </ul>
             </div>
         </header>
         
-        <div id="profile-pic-background">
+        <section id="profile-pic-background" class="flex-container">
             <img id="profile-pic" src="./assets/images/heisenbrain297x297-transparent.png" />
-        </div>
-        <div id="about-container" class="flex-container">
+            <p id="profile-quote">Yes, like in your head.</p>
+        </section>
+
+        <section id="about-container" class="flex-container">
             <div id="about-title">About Me</div>
             <div id="about-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </div>
-        </div>
-        <div id="project-container" class="flex-container">
-            <div class="project" class="main-project">
-                <a href="https://dbrainz.github.io/password-gen/" target="_blank">Password Generator</a></div>
-            <div class="project">
-                <a href="https://dbrainz.github.io/horiseon-refactor/" target="_blank">Horiseon Refactor</a></div>
-            <div class="project">
-                Time Converter
-            </div>
-        </div>
+        </section>
 
-        <div id="contact-container">
+        <section id="project-container" class="flex-container">
+            <div id="project-title">Projects</div>
+            <div id="project-blocks">
+                <img class="project-large" src="assets/images/application-clock-1224x300.jpg">
+                <img class="project-small" src="assets/images/application-horizon-600x300.jpg">
+                <img class="project-small" src="assets/images/application-password-600x300.jpg">
+            </div>
+        </section>
+
+        <section id="contact-container">
             <div class="flex-container">
                 <div class="contact-list"><a href="mailto:darren.brain@gmail.com">E-mail</a></div>
                 <div class="contact-list"><a href="https://github.com/dbrainz" target="_blank">Github</a></div>
                 <div class="contact-list"><a href="https://www.linkedin.com/in/darren-brain-88bab421/" target="_blank">Linkedin</a></div>
             </div>
-        </div>
+        </section>
     </body>
   
 </html>
